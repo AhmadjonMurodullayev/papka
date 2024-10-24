@@ -1,7 +1,14 @@
 import React from 'react'
 
-export default function cards() {
+export default function cards({img}) {
   return (
-    <div>cards</div>
+    <div>
+      <div>
+        <img src={item.img} alt="" />
+      </div>
+      {
+          <img src={item.img} alt="" />
+      }
+    </div>
   )
 }
